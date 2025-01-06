@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SilverLink - La Tua Salute al Primo Posto</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+  <!-- Hero Section -->
+  <section class="hero-section text-center d-flex align-items-center">
+    <div class="container">
+      <img src="images/llllogo-removebg-preview.png" alt="SilverLink Logo" class="hero-logo mb-3">
+      <p class="lead text-muted fw-light slogan">La tua salute, <strong>un tocco più vicina</strong>.</p>
+      <p class="small text-muted">Scopri come semplificare la gestione quotidiana con SilverLink.</p>
+    </div>
+  </section>
+
+  <!-- Caratteristiche Principali con Video -->
+  <section id="features" class="py-5">
+    <div class="container">
+      <div class="row">
+        <!-- Colonna delle Caratteristiche -->
+        <div class="col-md-7">
+          <div class="feature-container">
+            <!-- Riga 1 -->
+            <div class="feature-card">
+              <i class="fa-solid fa-truck-medical fa-2x text-success mb-2"></i>
+              <h5 class="fw-bold">Consegna Farmaci</h5>
+              <p>Ordina facilmente i tuoi farmaci e ricevili direttamente a casa.</p>
+            </div>
+            <div class="feature-card">
+              <i class="fa-solid fa-brain fa-2x text-success mb-2"></i>
+              <h5 class="fw-bold">Giochi Cognitivi</h5>
+              <p>Mantieni la mente attiva con giochi ispirati alla Settimana Enigmistica.</p>
+            </div>
+
+            <!-- Riga 2 -->
+            <div class="feature-card center-card">
+              <i class="fa-solid fa-bell fa-2x text-success mb-2"></i>
+              <h5 class="fw-bold">Promemoria Farmaci</h5>
+              <p>Ricevi notifiche per non dimenticare mai le tue medicine.</p>
+            </div>
+
+            <!-- Riga 3 -->
+            <div class="feature-card">
+              <i class="fa-solid fa-microphone-lines fa-2x text-success mb-2"></i>
+              <h5 class="fw-bold">Assistente Vocale</h5>
+              <p>Interagisci con l'app attraverso semplici comandi vocali.</p>
+            </div>
+            <div class="feature-card">
+              <i class="fa-solid fa-phone fa-2x text-success mb-2"></i>
+              <h5 class="fw-bold">Chiamata d’Emergenza</h5>
+              <p>Richiedi aiuto immediato con un solo tocco.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Colonna del Video -->
+        <div class="col-md-5 text-center">
+          <video class="app-video rounded shadow-lg" autoplay loop muted playsinline>
+            <source src="video/video app.mp4" type="video/mp4">
+            Il tuo browser non supporta il tag video. <a href="video/video app.mp4">Scarica il video</a>.
+          </video>
+        </div>          
+      </div>
+    </div>
+  </section>
+
+<!-- Email Section -->
+<section id="email" class="py-5 bg-light">
+  <div class="container text-center">
+    <h2 class="mb-4 fw-bold display-4 text-dark">Rimani Aggiornato</h2>
+    <p class="mb-4">Inserisci la tua email per ricevere gli ultimi aggiornamenti su SilverLink.</p>
+    <form id="email-form" class="d-flex justify-content-center">
+      <input
+        type="email"
+        id="email-input"
+        class="form-control email-input w-50 me-2"
+        placeholder="Inserisci la tua email"
+        required
+      >
+      <button type="submit" class="btn btn-success email-btn">Iscriviti</button>
+    </form>
+  </div>
+</section>
+
+  <footer class="text-center py-4 bg-light">
+    <p>&copy; 2025 SilverLink. Tutti i diritti riservati.</p>
+  </footer>
+</body>
+</html>
