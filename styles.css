@@ -1,0 +1,100 @@
+/* Stile Generale */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+  }
+  
+  /* Hero Section */
+  .hero-section {
+    background: linear-gradient(to bottom, #eaf8e8, #d4edda);
+    padding: 50px 20px;
+  }
+  
+  .hero-logo {
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+  }
+  
+  .hero-section p.slogan {
+    font-size: 1.8rem;
+    margin-top: 10px;
+  }
+  
+  .hero-section p.small {
+    font-size: 1rem;
+    margin-top: 5px;
+    color: #6c757d;
+  }
+  
+  /* Features Section */
+  .feature-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .feature-card {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .feature-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  }
+  
+  .feature-card h5 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+  }
+  
+  .feature-card p {
+    font-size: 1rem;
+    margin: 0;
+  }
+  
+  /* Card al Centro */
+  .center-card {
+    grid-column: span 2;
+    justify-self: center;
+  }
+  
+  /* Video */
+  .app-video {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    object-fit: contain;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Stile Email Section */
+#email .email-input {
+  font-size: 1rem;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+#email .email-btn {
+  font-size: 1rem;
+  padding: 10px 25px;
+  border-radius: 5px;
+  background-color: #39b54a;
+  border: none;
+}
+
+#email .email-btn:hover {
+  background-color: #2d9a3e;
+}
